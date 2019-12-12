@@ -1,0 +1,369 @@
+html {
+    height:100%;
+    /*width:100%;*/
+}
+body {
+    width:auto;
+    margin:0px auto;
+    min-height:100%;
+    background-color:#000000;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFFFF; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a9cfde; 
+}
+
+a:link {
+    color: #666666;
+    text-decoration:none;
+}
+
+a:hover {
+    color: #a9cfde;
+    text-decoration:none;
+}
+
+a:active {
+    color: #dddddd;
+    text-decoration:underline;
+}
+
+main {
+    margin:20px auto;
+    width: 100%;
+    min-height:100%;
+    background-color:#000000;
+    float:left;
+    padding:80px 0px 50px 0px;
+    display: inline-block;
+/*    position: relative;*/
+}
+
+nav, header {
+    width:100%;
+    min-height:70px;
+    float:left;
+    position: fixed;
+    display: block;
+    background-color: #FFFFFF;
+    z-index: 1;
+    padding-left:20px;
+}
+
+.navigation {
+    margin:15px 5px;
+    width:150px;
+    float:left;
+    height:40px;
+    line-height:40px;
+    text-align: left;
+    padding-left:10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color:#000000;
+}
+
+.navigation:hover {
+    background-color:#a9cfde;
+    color:#FFFFFF;
+}
+
+.navigation#curr {
+    width:148px;
+    height:38px;
+    background-color:#FFFFFF;
+    color:#000000;
+    border:1px solid #000000;
+}
+
+header {
+    line-height: 70px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:30px;
+    color:#a9cfde;
+}
+
+.mainlinks {
+    width: 322px;
+    height:100%;
+    margin:30px auto;
+}
+
+.title {
+    width:300px;
+    height:50px;
+    margin-top:30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:40px;
+    color:#FFFFFF;
+    float:left;
+}
+
+.homenav {
+    width:300px;
+    height:100px;
+    border:1px solid #FFFFFF;
+    margin-top:20px;
+    text-align:left;
+    padding-left:20px;
+    line-height:100px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:60px;
+    color:#FFFFFF;
+    float:left;
+    text-transform: uppercase;
+}
+
+.homenav:hover {
+    background-color:#ffffff;
+    color:#a9cfde;
+}
+
+aside {
+    width:400px;
+    height:100%;
+    float:left;
+    margin:30px 50px 0px;
+}
+
+.image {
+    margin:-440px 50px;
+    max-width:300px;
+    max-height:400px;
+    float:left;
+    overflow:hidden;
+}
+
+article {
+    margin:80px 100px;
+    max-width:700px;
+    height: 100%;
+    float:left;
+}
+
+article#work {
+    margin:80px 200px;
+    max-width:100%;
+}
+
+
+p {
+    font-family: 'Livvic', sans-serif;
+    font-size:15px;
+    color:#FFFFFF;
+    line-height:1.5;
+    text-align:justify;
+}
+
+.icon {
+    width:100px;
+    height:100px;
+    float:left;
+}
+
+.worksnav {
+    width:10%;
+    height: auto;
+    background-color: #ffffff;
+    top: 100px;
+    left:20px;
+    float: left;
+    padding-bottom: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
+
+.gallery {
+    float:left;
+    width: 89%;
+    height: 100%;
+}
+
+section {
+    width: 90%;
+    margin: 50px 0px 0px 60px;
+    float: left;
+}
+
+.photo {
+    width:360px;
+    height:270px;
+    display: block;
+}
+
+.titleLink {
+    height:30px;
+    width:60%;
+    background-color:#000000;
+    text-align:center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:18px;
+    color:#FFFFFF;
+    margin:50px auto 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.titleLink:hover {
+    color:#a9cfde;
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+    height:28px;
+}
+
+.intro {
+    max-height:200px;
+    width:60%;
+    font-family: 'Livvic', sans-serif;
+    font-size:15px;
+    color:#000000;
+    line-height:1.5;
+    text-align:justify;
+    margin:auto;
+}
+
+.page {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 200px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:18px;
+    color:#000000;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    line-height:30px;
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: #a9cfde;
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+    margin:20px;
+    width: 360px;
+    float: left;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    height:100%;
+}
+
+/*Modal code modified from tutorial by w3schools.com*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+/*    overflow: auto;  Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: auto 0px 0px 100px;
+    padding: 40px;
+    border: 1px solid #000;
+    width: 70%;
+    height: 70%;
+    overflow: auto;
+/*    float:left;*/
+}
+
+.modalphotocontainer {
+    position: relative;
+    width: 100%;
+/*    float:left;*/
+    height: auto;
+    margin-bottom:20px;
+    text-align: center;
+    display: block;
+}
+
+.modalphoto {
+    margin: 10px;
+}
+
+.modaltitle {
+    width:100%;
+    height:50px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:40px;
+    color:#000000;
+    display: block;
+    text-transform: uppercase;
+/*    float:left;*/
+}
+
+.modaltext {
+    font-family: 'Livvic', sans-serif;
+    font-size:16px;
+    color:#000000;
+    line-height:1.5;
+    text-align:justify;
+    width: 100%;
+    margin:10px 0px;
+/*    float:left;*/
+/*    display: block;*/
+}
+
+.closemodal {
+    text-align: center;
+    border: 1px solid #a9cfde;
+    height: 30px;
+    width: 200px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:18px;
+    color:#a9cfde;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    line-height:30px;
+    cursor: pointer;   
+}
+
+.closemodal:hover, .closemodal:focus {
+    background-color:#a9cfde;
+    color:#FFFFFF;
+}

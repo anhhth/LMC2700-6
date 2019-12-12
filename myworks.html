@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css?family=Livvic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One:400" rel="stylesheet">
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="portfolio.js"></script>
+        <title>Anh Ho.</title>
+    </head>
+    <body>
+        <nav><a href="index.html"><div class="navigation">HOME</div></a>
+        <a href="about.html"><div class="navigation">ABOUT ME</div></a>
+        <a href="myworks.html"><div class="navigation" id="curr">MY WORKS</div></a>
+        <a href="contacts.html" ><div class="navigation" >CONTACT ME</div></a>
+        </nav>
+        <main style="padding:none;">
+            <div class="worksnav">
+                <a href="#graphics"><div class="titleLink">graphics</div></a>
+                <a href="#uiux"><div class="titleLink">ui/ux</div></a>
+                <a href="#misc"><div class="titleLink">misc.</div></a>
+            </div>
+            <div class="gallery">
+                <div class="title"  id="graphics" style="width:400px; margin-left:60px;font-size: 60px;">GRAPHICS.</div>
+                <section>
+                    <div class="container">
+                        <img src="anh1.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="anh1" onClick="btn_click(this.id)">anh 1</div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="NAR.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="nar" onClick="btn_click(this.id)">north avenue review</div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="kpop.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="pop" onClick="btn_click(this.id)">pop</div>
+                        </div>
+                    </div>
+                </section>
+                <div class="title"  id="uiux" style="width:400px; margin-left:60px;font-size: 60px;">UI/UX PROJECTS.</div>
+                <section>
+                    <div class="container">
+                        <img src="fpt.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="fpt" onClick="btn_click(this.id)">fpt school</div>
+                        </div>
+                    </div>
+                </section>
+                <div class="title"  id="misc" style="width:400px; margin-left:60px;font-size: 60px;">MISCELLANEOUS</div>
+                <section>
+                    <div class="container">
+                        <img src="snailRun.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="snail" onClick="btn_click(this.id)">snail run</div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="digitalworld.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="digi" onClick="btn_click(this.id)">digital world</div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src="aframe.png" width="360px" height="270px" class="photo">
+                        <div class="overlay">
+                            <div class="page" id="hit" onClick="btn_click(this.id)">hit</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+        <!-- Anh 1 Modal -->
+        <div id="anh1Modal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">anh 1</div>
+                <div class="modaltext">
+                    <i>Programs used: Adobe Photoshop, Adobe Illustrator.</i><br><br>
+                    Anh 1 was the name of my class in high school. This is a collection of graphics that I made for our graduation, including a class logo, a t-shirt design, and a yearbook spread. Below are the graphics.
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="anh1logo.png" width="300px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: Class logo</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="boba.png" width="200px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 2: T-shirt design</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="KIYEUANH!.png" width="600px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 3: Yearbook spread</div>
+                </div>
+                <div class="closemodal" id="anh1Close">click to close</div>
+            </div>
+        </div>
+        <!-- End Anh 1 modal-->
+        
+        <!-- NAR Modal -->
+        <div id="narModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">north avenue review</div>
+                <div class="modaltext">
+                    <i>Programs used: Adobe Photoshop, Adobe Illustrator, Adobe InDesign.</i><br><br>
+                    North Avenue Review is Georgia Tech's free speech magazine, established in 1989. I have been involved with NAR since my first semester at Tech. NAR to me is like a creative outlet, both for words and for visual designs. Below are a few spreads I have made for the last few issues of NAR. 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="antimusic.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: Anti-music Music</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="amateurs.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 2: Amateurs</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="facebook.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 3: Facebook</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="tv.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 4: TV is bad</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="hand.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 5: Hand graphic for Write-a-thon event</div>
+                </div>
+                <div class="closemodal" id="narClose">click to close</div>
+            </div>
+        </div>
+        <!-- End NAR modal-->
+        
+        <!-- POP Modal -->
+        <div id="popModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">pop</div>
+                <div class="modaltext">
+                    <i>Programs used: Adobe Photoshop, Adobe Illustrator.</i><br><br>
+                    This is a personal project of mine in which I explore different graphic styles through the creation of pop music-inspired pieces - namely Korean pop music videos. Below are some of my works. 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="powerupmeltwot.png" width="300px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: Inspired by Power Up by Red Velvet</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="jilleosseo.png" width="300px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 2: Inspired by Now or Never by SF9</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="bbibbi.png" width="600px" height="394px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 3: Inspired by Bbi Bbi by IU</div>
+                </div>
+                <div class="closemodal" id="popClose">click to close</div>
+            </div>
+        </div>
+        <!-- End POP modal-->
+        
+        <!-- FPT Modal -->
+        <div id="fptModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">FPT school</div>
+                <div class="modaltext">
+                    <i>Programs used: Balsamiq, Figma, Adobe Illustrator.</i><br><br>
+                    User interaction design for an application for FPT School in Vietnam. This was my first time working professionally with UI/UX. Mockup template by <a href="https://lstore.graphics/">lstore.graphics</a>. 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="uflow.png" width="400px" height="405px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: User flow chart</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="frames.png" width="555px" height="300px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 2: Some frames from the design</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="icons.png" width="600px" height="200px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 3: Icon set</div>
+                </div>
+                <div class="closemodal" id="fptClose">click to close</div>
+            </div>
+        </div>
+        <!-- End FPT modal-->
+        
+        <!-- Snail Run Modal -->
+        <div id="snailModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">Snail Run</div>
+                <div class="modaltext">
+                    <i>Programs used: Adobe Illustrator, Adobe Photoshop.<br>Languages: HTML, JavaScript.</i><br><br>
+                    A platformer game prototype called Snail Run created by my groupmates and I. Get Sizzlekicks the Snail to his house before the Boogies and Joppities get to him! For this project, I was mainly in charge of the graphics and making the sprite sheets, as well as implementing them to build the Snail Run's universe. The game is coded entirely with HTML and JavaScript. The game will be online soon. 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="main.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: Key graphic for the game</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="screenshot.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 2: Screenshot of game screen</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="sprites.png" width="300px" height="200px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 3: Sprite sheets of characters and scenery</div>
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="tiles.png" width="450px" height="292px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 4: Some tiles that I created for the game</div>
+                </div>
+                <div class="closemodal" id="snailClose">click to close</div>
+            </div>
+        </div>
+        <!-- End Snail Run modal-->
+        
+        <!-- Digital World Modal -->
+        <div id="digiModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">digital world</div>
+                <div class="modaltext">
+                    <i>Languages: HTML - HTML framework called A-frame.</i><br><br>
+                    This is an interactive 3D scene coded in HTML using A-frame, a HTML framework. Click <a href="https://anhhth.github.io/LMC2700Project3/">here</a> to experience the digital world. The concept of this scene is a "digital" world that is not only born out of codes, but also resembles a world coming out of a smartphone. Hover over the colourful squares to explore! 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="digitalworld.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: A screenshot of the scene</div>
+                </div>
+                <div class="closemodal" id="digiClose">click to close</div>
+            </div>
+        </div>
+        <!-- End Digital World modal-->
+        
+        <!-- HIT Modal -->
+        <div id="hitModal" class="modal">
+            <div class="modal-content">
+                <div class="modaltitle">HIT</div>
+                <div class="modaltext">
+                    <i>Languages: HTML - HTML framework called A-frame.</i><br><br>
+                    This is a 3D scene coded in HTML using A-frame, a HTML framework. Click <a href="https://anhhth.github.io/LMC2700Project2/">here</a> to take a look at the scene. The scene is based on this <a href="https://i.imgur.com/47fKqPY.jpg">original image</a>. 
+                </div>
+                <div class="modalphotocontainer">
+                    <img src="aframe.png" width="600px" height="450px" class="modalphoto">
+                    <div class="modaltext" style="width:400px;margin: auto;text-align: center;">Image 1: A screenshot of the scene</div>
+                </div>
+                <div class="closemodal" id="hitClose">click to close</div>
+            </div>
+        </div>
+        <!-- End HIT modal-->
+
+    </body>
+</html>
